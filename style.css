@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+
+*,
+*::after,
+*::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --light-cyan:hsl(193, 38%, 86%);
+    --neon-green:hsl(150, 100%, 66%);
+    --grayish-blue:Grayish Blue: hsl(217, 19%, 38%);
+    --dark-grayish-blue:hsl(217, 19%, 24%);
+    --dark-blue:hsl(218, 23%, 16%);
+}
+
+body{
+    background-color:var(--dark-blue);
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    color:white;
+    font-family: 'Manrope',sans-serif;
+}
+
+img{
+    max-width: 100%;
+}
+
+.wrapper{
+    background-color: var(--dark-grayish-blue);
+    width: 80vw;
+    max-width: 45ch;
+    margin:auto;
+    border-radius: .5rem;
+    text-align: center;
+    padding:2rem 2.5rem;
+    margin-block-end: 3rem;
+    position: relative;
+}
+
+.advice-id{
+    color:var(--neon-green)
+}
+
+.advice-text{
+    margin-block: 1.5rem;
+    font-size: 28px;
+}
+
+picture img{
+    margin-block-end: 1rem;
+}
+
+.dice{
+    position: absolute;
+    bottom: -1.5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color:var(--neon-green);
+    padding: .2rem;
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+    display: grid;
+    place-items: center;
+    transition:all .35s ease-in-out;
+}
+
+.dice:hover{
+    box-shadow: 0 0 1rem var(--neon-green);
+}
+
+.dice img{
+    width: 1rem;
+    height: 1rem;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}

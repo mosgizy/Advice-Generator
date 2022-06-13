@@ -75,6 +75,24 @@ picture img{
     box-shadow: 0 0 1rem var(--neon-green);
 }
 
+.dice:hover img{
+    animation: rotate .35s ease .2s forwards infinite;
+}
+
+@keyframes rotate {
+    0%{
+        transform:rotate(45deg);
+    }
+
+    25%{
+        transform:rotate(65deg);
+    }
+
+    50%{
+        transform:rotate(90deg);
+    }
+}
+
 .dice img{
     width: 1.2rem;
     height: 1.2rem;

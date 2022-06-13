@@ -32,11 +32,11 @@ img{
 .wrapper{
     background-color: var(--dark-grayish-blue);
     width: 80vw;
-    max-width: 45ch;
+    max-width: 50ch;
     margin:auto;
     border-radius: .5rem;
     text-align: center;
-    padding:2rem 2.5rem;
+    padding:2.5rem 3rem;
     margin-block-end: 3rem;
     position: relative;
 }
@@ -48,12 +48,12 @@ img{
 }
 
 .advice-text{
-    margin-block: 1.5rem;
+    margin-block: 2rem;
     font-size: 28px;
 }
 
 picture img{
-    margin-block-end: 1rem;
+    margin-block-end: 1.5rem;
 }
 
 .dice{

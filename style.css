@@ -42,7 +42,9 @@ img{
 }
 
 .advice-id{
-    color:var(--neon-green)
+    color:var(--neon-green);
+    letter-spacing:.2rem;
+    font-weight: 100;
 }
 
 .advice-text{
